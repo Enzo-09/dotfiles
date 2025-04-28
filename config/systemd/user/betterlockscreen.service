@@ -1,0 +1,10 @@
+[Unit]
+Description=Lock screen after autologin
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash --c "sleep 1 && betterlockscreen -l"
+
+[Install]
+WantedBy=default.target

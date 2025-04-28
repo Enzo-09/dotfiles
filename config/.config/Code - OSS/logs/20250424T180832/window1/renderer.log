@@ -1,0 +1,4 @@
+2025-04-24 18:08:33.050 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-24 18:08:33.119 [info] Started local extension host with pid 39469.
+2025-04-24 18:08:33.151 [info] Started initializing default profile extensions in extensions installation folder. file:///home/enzo/.vscode-oss/extensions
+2025-04-24 18:08:33.264 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/enzo/.vscode-oss/extensions

@@ -1,0 +1,14 @@
+{
+	"bounds": {
+		"x": 966,
+		"y": 30,
+		"width": 944,
+		"height": 1040
+	},
+	"accounts": [
+		{
+			"id": "default",
+			"name": "Default Account"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+2025/04/24-19:36:12.512 285e Reusing MANIFEST /home/enzo/.config/notion-app/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2025/04/24-19:36:12.515 285e Recovering log #37
+2025/04/24-19:36:12.518 285e Level-0 table #39: started
+2025/04/24-19:36:12.551 285e Level-0 table #39: 311468 bytes OK
+2025/04/24-19:36:12.554 285e Delete type=0 #37
+2025/04/24-19:36:12.554 285f Compacting 4@0 + 2@1 files
+2025/04/24-19:36:12.589 285f Generated table #41@0: 11 keys, 2175432 bytes
+2025/04/24-19:36:12.602 285f Generated table #42@0: 7 keys, 932644 bytes
+2025/04/24-19:36:12.602 285f Compacted 4@0 + 2@1 files => 3108076 bytes
+2025/04/24-19:36:12.603 285f compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/04/24-19:36:12.604 285f Delete type=2 #39
+2025/04/24-19:36:12.604 285f Delete type=2 #33
+2025/04/24-19:36:12.604 285f Delete type=2 #30
+2025/04/24-19:36:12.604 285f Delete type=2 #28
+2025/04/24-19:36:12.604 285f Delete type=2 #27
+2025/04/24-19:36:12.604 285f Delete type=2 #36

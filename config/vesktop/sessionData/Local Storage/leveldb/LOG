@@ -1,0 +1,9 @@
+2025/04/26-22:01:53.781 1ef0 Reusing MANIFEST /home/enzo/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/04/26-22:01:53.789 1ef0 Recovering log #4
+2025/04/26-22:01:53.789 1ef0 Reusing old log /home/enzo/.config/vesktop/sessionData/Local Storage/leveldb/000004.log 
+2025/04/26-22:17:59.375 1ef0 Level-0 table #8: started
+2025/04/26-22:17:59.382 1ef0 Level-0 table #8: 39593 bytes OK
+2025/04/26-22:17:59.385 1ef0 Delete type=0 #4
+2025/04/26-23:08:10.712 1ef1 Level-0 table #10: started
+2025/04/26-23:08:10.719 1ef1 Level-0 table #10: 39111 bytes OK
+2025/04/26-23:08:10.721 1ef1 Delete type=0 #7

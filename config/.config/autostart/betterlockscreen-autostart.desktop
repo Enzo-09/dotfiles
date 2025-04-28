@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Betterlockscreen AutoLock
+Comment=Bloquea la pantalla tras iniciar sesión
+Exec=bash -c "betterlockscreen -l"
+X-GNOME-Autostart-enabled=true
+

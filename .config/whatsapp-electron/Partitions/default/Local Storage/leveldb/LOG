@@ -1,0 +1,6 @@
+2025/04/26-21:58:06.464 1d1f Reusing MANIFEST /home/enzo/.config/whatsapp-electron/Partitions/default/Local Storage/leveldb/MANIFEST-000001
+2025/04/26-21:58:06.465 1d1f Recovering log #3
+2025/04/26-21:58:06.465 1d1f Reusing old log /home/enzo/.config/whatsapp-electron/Partitions/default/Local Storage/leveldb/000003.log 
+2025/04/26-22:04:07.413 1d20 Level-0 table #5: started
+2025/04/26-22:04:07.419 1d20 Level-0 table #5: 22512 bytes OK
+2025/04/26-22:04:07.421 1d20 Delete type=0 #3

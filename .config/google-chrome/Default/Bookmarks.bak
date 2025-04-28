@@ -1,0 +1,136 @@
+{
+   "checksum": "babdc2ec33bcd5c27eea1dae88f40a4d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13388783407645094",
+            "date_last_used": "0",
+            "guid": "8e02c629-d601-4bd6-86a5-3481442647e3",
+            "id": "7",
+            "name": "Insights",
+            "type": "url",
+            "url": "https://github.com/Enzo-09/practica-entornos/pulse"
+         }, {
+            "date_added": "13325031250791811",
+            "date_last_used": "13329946978792668",
+            "guid": "57f4d017-13b6-462d-b0b1-6e1ee12c8b10",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13325031250793567",
+            "date_last_used": "13374024290353118",
+            "guid": "46259938-dc09-4f6c-8814-d45e12a5f11c",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13339537764778669",
+            "date_last_used": "13340502595421025",
+            "guid": "fdd3ab53-ab2d-4048-9ecd-37064e82a6b2",
+            "id": "10",
+            "name": "",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13325031250795018",
+            "date_last_used": "13341939944142684",
+            "guid": "d6dd046f-d5d4-4664-b6f6-aee4bbb995f4",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "children": [ {
+               "date_added": "13387642043680967",
+               "date_last_used": "0",
+               "guid": "e5113d84-df85-4e3b-ac9f-8dab5e546701",
+               "id": "13",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Git Catedra",
+               "type": "url",
+               "url": "https://github.com/utnfrrodsw/desarrollo-de-software"
+            } ],
+            "date_added": "13387642082268123",
+            "date_last_used": "0",
+            "date_modified": "13387642082268123",
+            "guid": "a249e87a-5a1c-4dbd-b044-2d82f6b9695c",
+            "id": "12",
+            "name": "Desarrolo de Software",
+            "type": "folder"
+         }, {
+            "date_added": "13390189388782674",
+            "date_last_used": "0",
+            "guid": "5f6fd518-fede-4346-a7e1-86bc5cedf2d0",
+            "id": "15",
+            "name": "Github.com/AugustoPalmieri",
+            "type": "url",
+            "url": "http://github.com/AugustoPalmieri"
+         } ],
+         "date_added": "13390002139771363",
+         "date_last_used": "0",
+         "date_modified": "13390189388782675",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13371847202797739",
+            "date_last_used": "0",
+            "guid": "2def077b-1dd5-45fb-b190-6c42a138e043",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "uBlock Origin - Chrome Web Store",
+            "type": "url",
+            "url": "https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=es"
+         }, {
+            "date_added": "13389919909344788",
+            "date_last_used": "0",
+            "guid": "392707b1-7c9d-4ba8-be69-34dbf17e7ecf",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub Student Developer Pack - GitHub Education",
+            "type": "url",
+            "url": "https://education.github.com/pack"
+         } ],
+         "date_added": "13390002139771366",
+         "date_last_used": "0",
+         "date_modified": "13389919909344788",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13390002139771378",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos del dispositivo",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CmEKQQiIgQISOyAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCdwDnPS3MwYAEdwDnPS3MwYAKeNHnPS3MwYAEgAqGExVQWZndm1JQVh5dFIzaThkNVBaVHc9PUgDEuwBCA8S5wEKHE5HZnhvSUVuanZESDRrbFhXVVI3clUzOEJFRT0SZlo6QURxdEFad3R5bXhDWkJlSUU2NjR2S1pXVDEzMVNzclVXYUZzNHNRWmc0aXpBcXZKejhqOXJEN1FBUmVDQzU1aFdnUjd0bFBhbWJpSXFMSitNZU1sWGVtaVVXT0JYRmhOWXc9PRgAIAIoAjC22cWMgveMAzju95Om5zJA7/eTpucyShw0OU40OWRsYjhCVWhMME52NFcxNThCSHF3V2s9Wh8iHfdjRFJpNXNpTWVSWVh5d0RuOTNLeUFYTjlSZTg9ZRVQ+YkSwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp5MHF4VUR5aXlQd0pNWEd4Y1g2dVpqeWNuOWhqaEdrTWNRcnF4QzN2T0MrdEh5eEt1NVdLU2xnNnJtVis2K1dCcXErUUNzNU5nYVQ1ZlIrc29iUGEzYWxlMlpYUT09GAAgACgAMKLcv9HI8YwDOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAS6wEIBRLmAQocbGFLZUtaRFFmNGNPY0VUbzdRNm1uWmt6Z3V3PRJmWjpBRHF0QVp3dHlteENaQmVJRTY2NHZLWldUMTMxN0QvN2tMNGN6cHZQWS9GMkZoZnhqU2o0cjFNbEVGS2NZUWZUUEMveHRHcUxWWTZEWGkxUnQ0bVVLRlhHdWorMHJobTVvUT09GAAgACgAMKGc4pCY4YgDOO3f9fuiMkDt3/X7ojJKHFlpM0l6b2lXVENrVWJNaHBZaS93bmRDSjBJST1aHiIcNXBpTGxQZHRBalY1SU5iWERLcDRleUdzSVFvPWXHaQdYEusBCAgS5gEKHGl3VmpjZkRHdEMvaytwb0J3ZzE2bDFEekVuRT0SZlo6QURxdEFad3R5bXhDWkJlSUU2NjR2S1pXVDEzMUpycm5vTlpsOVA2MnNrYVFreERnbGdpQkVRYklMTVhNdDFLNGlzeHpqMXFyUU5jTStuNlg1LzVtMjVjaTVmNVl4WGZmYWc9PRgAIAAoADCuh+qKlu2FAzjx/6Hu/zBA8f+h7v8wShxDdXBib2JpT3QwTGJZMUw0eEczVlp4VlYydFU9Wh4iHHAwUy9RaWdKdk1qT2tDMzhWMmp2MTVsemluND1lmz2FthLsAQgMEucBChwvSCtuTDg3S3BOdG5SY2FneFUwV3VodE5rSUk9EmZaOkFEcXRBWnd0eW14Q1pCZUlFNjY0dktaV1QxMzFqOU5wNU9adXFsSC8ycSt2dWR1cXJoeWZyMTEzbEIwRFJUWnY0UzN2d3NxVW01OFlHRm5NaFdSYTVwalFWSEFHaklSN1RBPT0YACAAKAAwl/eD0vCsjAM43NfA590yQNzXwOfdMkocQ3VOV1EyWXp2QlppYmZjZDBMUTRDRVRJdzhRPVofIh3uM2FVeDU0ZFVmMkZzV0pWMzlHazZZSGtaam40PWUAAAAAEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeU4xVjZ3MlNIWVh3aGpOVDFXVGtIeC9adkUxTzh4MFV0Y3RadytpZTV5TmhzTHlmMTkvS0Y5eFAreEhGaGM5Rm8zZ0t3cBgAIAAoADCi3L/RyPGMAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEuwBCAkS5wEKHEVwSDBFT0pQcnVGS3VFMTMxVmJkeExjdk01ST0SZlo6QURxdEFad3R5bXhDWkJlSUU2NjR2S1pXVDEzMUlydFRzV2F3cnRQS2JXNE54UnZreEk4SWlnUzNWdC9ndi9rNUVxMnRBVzFZYnoyT01NVjVLL0MxQUdHdHd4aVB2Q25BUnc9PRgAIAAoADDby+23xqCJAzjy/6Hu/zBA8v+h7v8wShxNTVlTd1hKeGliSFFUbkhrSC8xLzNvc1dJUDA9Wh8iHbhmZzF5cVBkWDJHRnIwSU1zdVRkd2JQaGYxM2c9Zf2cjEoS6wEIDRLmAQocSnVpRjBYa2NKRXRERXZFd2RVcEhqN3dyUWJnPRJmWjpBRHF0QVp3dHlteENaQmVJRTY2NHZLWldUMTMxRCt0cDNJMGVTb1A2Z09vY1o2U21QMTVOanlEcUZJaU1XUHM3Y0VBNHYrSFN1bjl5TFU0TVdhYUZEVVI2aGhUYk9aSVJCQT09GAAgACgAMJ60wfmc0IwDOKGqvufdMkChqr7n3TJKHEZvU2tZYmVwYWlZNjhLTHYrUGdGMjRmV2EwYz1aHiIcVFVJWmwzL004SXB5ZVRxR1Q1RWY1Mi9HTi93PWUVUPmJEusBCAYS5gEKHHRQbkh2WWdxMFNMdllIK1oyRUFpSU1SUXBJQT0SZlo6QURxdEFad3R5bXhDWkJlSUU2NjR2S1pXVDEzMURGZUo3aG1PK09TTlBockp6L0piYWJ2ekE1TWFGVFBNd0x5RitYUm41V0ErSWVvN2lPMUhqL1V6dXRGVW8yWkdwcGt0OFE9PRgAIAAoADCHxvmalu+MAzjgm9Sl5jJA4JvUpeYyShxJdGpoam9rd2Q1bktZUG9Kd2NWMmFHMFlKYkU9Wh4iHGMwZ2ZoSkpIdmJuekNsTUxoTERqU3dJNG03bz1lTy1lShLsAQgLEucBChxIc01IWXcrZmxrR1FtN2t5enpFbEFoMll1VVk9EmZaOkFEcXRBWnd0eW14Q1pCZUlFNjY0dktaV1QxMzE5dnZkQm9CNjZNck1ZMlJzTVFrYmd0aVIvV1dUU2RrUGhFeWJSVHVMY2lYS1VKOEFrdit1N0VlYzlGc0JobmNxSGQxMFBRPT0YACAAKAAwrofqipbthQM48v+h7v8wQPL/oe7/MEocM3RUNS9QcXNEcjZtSnVybHVSeDRWSUdjQ0NBPVofIh3cZDNDT0ltaTRkUE1naWpYNnN1SXVNMUZibCtVPWU9bIUREusBCAcS5gEKHC9GWDB3UVowVThpZUJYVkN2blQzZU1hOTMwOD0SZlo6QURxdEFad3R5bXhDWkJlSUU2NjR2S1pXVDEzMXErZjRUajVyNnV5a1R5MVExRnZtd1N2SWlOT3BucFhBTW1FT0ZCK0RhVWJBNHJNdFhIckdnM2RmaWRzblF2Rkh3WmlBOHc9PRgAIAAoADCs7e6LgN2MAzid1N2H4jJAndTdh+IyShxMUjhSVEwyRlJTaHhjTGh1eHBGR3pxVUpXNGM9Wh4iHERtRGYxeFdPTEdGSDFPYmJYVHdYeFhNU1QzTT1lyPM/uxLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWnpjMmJBVmRINVQxWTg0UTkrTFZXblVJcEFUU0lUdVRPODZiZ21OeW42UXAwdW0vQ29ndXZBbDN5NWpKKzZ3RUxrZWUxelBrYWZscHRyekY0bTNoanNWQzIxVTFRPT0YACAAKAAwoty/0cjxjAM4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABLsAQgKEucBChxCaVk1Q2ZTVmRWNmx0d1RObm8zZlp0OXgvems9EmZaOkFEcXRBWnd0eW14Q1pCZUlFNjY0dktaV1QxMzFCalJ6UlpjRkZHRVBZVWhKZjFVaE9aVE5rRFZOdDhETVdpdXpyRHRDdmN6Zkp0S0x5N2dxc1dKN1Q3OWxzLzhwUHVvRERnPT0YACAAKAAw28vtt8agiQM4q5PKzaoxQKuTys2qMUocTFRmSkdpcWJBdFloeUhTd09kREdudlZXeG40PVofIh3KQzhGK1d1L1VSUEV1ZXprbXVZV21scUdhY3FrPWX9nIxKMAE4AA==",
+   "version": 1
+}

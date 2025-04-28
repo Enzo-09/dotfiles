@@ -1,0 +1,2 @@
+import"../modulepreload-polyfill-DTozF073.js";import"../worker/service-BjXlrFcV.js";import"../_sentry-release-injection-file-B7f_kigG.js";import"../api-Bn-xksfZ.js";(function(){try{var e=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},f=new e.Error().stack;f&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[f]="8cfab9b5-39d6-4854-a7f9-eb305ab6aff8",e._sentryDebugIdIdentifier="sentry-dbid-8cfab9b5-39d6-4854-a7f9-eb305ab6aff8")}catch{}})();
+//# sourceMappingURL=background-DD_njGyl.js.map

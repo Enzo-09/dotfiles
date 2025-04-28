@@ -1,0 +1,5 @@
+2025/04/24-19:41:28.026 89c9 Reusing MANIFEST /home/enzo/.config/notion-app/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2025/04/24-19:41:28.027 89c9 Recovering log #40
+2025/04/24-19:41:28.030 89c9 Level-0 table #44: started
+2025/04/24-19:41:28.062 89c9 Level-0 table #44: 311718 bytes OK
+2025/04/24-19:41:28.065 89c9 Delete type=0 #40

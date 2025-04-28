@@ -1,0 +1,6 @@
+2025/04/25-10:47:07.461 3ef Creating DB /home/enzo/.config/google-chrome/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb since it was missing.
+2025/04/25-10:47:07.466 3ef Reusing MANIFEST /home/enzo/.config/google-chrome/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/25-10:47:08.068 3ef Level-0 table #5: started
+2025/04/25-10:47:08.070 3ef Level-0 table #5: 20025 bytes OK
+2025/04/25-10:47:08.072 3ef Delete type=0 #3
+2025/04/25-10:47:08.072 3ef Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,48 @@
+{
+   "checksum": "e1736b9d11b78b20e2a80570fe9229e8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13390006487634633",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13383843777111663",
+            "date_last_used": "0",
+            "guid": "3f50eae0-8211-48a4-9424-cc99fc0d2e74",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Nueva pestaña",
+            "type": "url",
+            "url": "chrome://newtab/"
+         } ],
+         "date_added": "13390006487634636",
+         "date_last_used": "0",
+         "date_modified": "13383843777111663",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13390006487634639",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos del dispositivo",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CmEKQQiIgQISOyAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCSvZcY2NMwYAESvZcY2NMwYAKWbwcY2NMwYAEgAqGGdFNXoxdDFhWUZQZEpDOEJMRXE3OGc9PUgDEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeFVNbzB5czN0bW5qUjVoeEROVjZENnQzb0pPVFBBYlVxSDBlZnFuODBkejRZcndRMlpUeHNET1lJRjZtTUYzcXZJdVhTK1Y2T1dFRk9hcytqdlR0eWpBTlNVdlE9PRgAIAAoADDH4teYmvGMAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEusBCAUS5gEKHCszVmczNlVFZ3owdHphQzd0dkp5RFpDRWJkaz0SZlo6QURxdEFaem1uSFprckd4NlhvdWwyckFQM1Eybk9KQ3FlcVZOb1RQZGEwUUwxYjRGTmp6L2RQQnUwdkVvK05ocHhYNVBNYkJPV0ZYNms4MkdNM0NJbkFJd3hKeFpXOXRCeXc9PRgAIAAoADDqgKPtqr6LAzjXxKrUzzJA18Sq1M8yShx6QUZsMDFDdVpadVMvWWJZUXZFbllYbldXYWM9Wh4iHG1haUJhZW1GL3V6bWFEeUVVYTk1S1pjcXUyMD1lAAAAABLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWndhMnBFQVkySVZxL0NHOTdhZS9hTTZ2eGdXTUVGeGZNaXk1eDBrdG04M3BlQVR3d3d0cVI2WWlJS0YyOTJvcUFSMGVlckVmcEIyRFhwRWpWNTZqNVZaUDAzM3RnPT0YACAAKAAwx+LXmJrxjAM4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKrAQgBEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWnpTYVVhQjhKeXNqSk1VWW9qQnV4OExiZ1o2ODA3Z3M0cXduWlZYUEQ2S2VUOWk1bTlWdXBJOXp5Qmx1a0MvUmhzTStrMFgYACAAKAAwx+LXmJrxjAM4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAADABOAA=",
+   "version": 1
+}

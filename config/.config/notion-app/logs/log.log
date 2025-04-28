@@ -1,0 +1,5047 @@
+[2025-04-24 18:46:37.821] [info] Checking for update
+[2025-04-24 18:46:37.858] [info] Error reading /home/enzo/.config/notion-app/cookies.json {
+  constructor: 'Error',
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/enzo/.config/notion-app/cookies.json',
+  stack: "Error: /home/enzo/.config/notion-app/cookies.json: ENOENT: no such file or directory, open '/home/enzo/.config/notion-app/cookies.json'\n" +
+    '    at Object.openSync (fs.js:466:3)\n' +
+    '    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1812)\n' +
+    '    at Object.readFileSync (fs.js:368:35)\n' +
+    '    at Object.e.readFileSync (electron/js2c/asar_bundle.js:5:8592)\n' +
+    '    at Object.readFileSync (/opt/Notion/resources/app.asar/node_modules/jsonfile/index.js:61:22)\n' +
+    '    at JsonStore.loadSync (/opt/Notion/resources/app.asar/main/JsonStore.js:38:44)\n' +
+    '    at new JsonStore (/opt/Notion/resources/app.asar/main/JsonStore.js:15:14)\n' +
+    '    at Object.<anonymous> (/opt/Notion/resources/app.asar/main/schemeHandler.js:37:25)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1152:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1173:10)'
+}
+[2025-04-24 18:46:38.152] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 18:46:38.155] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 18:46:38.156] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 18:46:38.158] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'errorReadingPath',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'",
+    stack: "Error: ENOENT: no such file or directory, open '/home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'"
+  },
+  data: {
+    message: 'Error reading /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 18:46:38.159] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: {}
+}
+[2025-04-24 18:46:38.159] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionEmptyLatestVersion'
+}
+[2025-04-24 18:46:38.159] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: {}
+}
+[2025-04-24 18:46:38.503] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateAvailable',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 18:46:51.180] [info] { level: 'info', from: 'AssetCache', type: 'checkingForAppUpdate2' }
+[2025-04-24 18:46:51.183] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateDownloadComplete',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 18:46:51.185] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'installingAppUpdate',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 18:48:17.019] [info] Quitting...
+[2025-04-24 18:48:17.020] [info] Killing child process
+[2025-04-24 18:51:07.716] [info] Checking for update
+[2025-04-24 18:51:08.037] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 18:51:08.039] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 18:51:08.040] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 18:51:08.046] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 18:51:08.046] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 18:51:08.066] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 18:51:08.371] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 18:51:08.405] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 18:51:08.406] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 18:51:08.459] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 18:51:08.460] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 18:51:08.461] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 18:51:08.461] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 18:51:08.462] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 18:51:08.462] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 18:51:08.463] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 18:51:08.463] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 18:51:08.558] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 18:51:08.559] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 18:51:08.560] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 18:51:08.560] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 18:51:08.561] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 18:51:08.562] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 18:51:08.562] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 18:51:08.563] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 18:51:08.563] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 18:51:08.564] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 18:51:08.564] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 18:51:08.565] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 18:51:08.566] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 18:51:08.566] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 18:51:08.567] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 18:51:08.567] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 18:51:08.568] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 18:51:08.569] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 18:51:08.569] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 18:51:08.570] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 18:51:08.570] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 18:51:08.571] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 18:51:08.594] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 18:51:08.595] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 18:51:08.596] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 18:51:08.596] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 18:51:08.775] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 18:51:08.776] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 18:51:16.266] [info] Quitting...
+[2025-04-24 18:51:16.267] [info] Killing child process
+[2025-04-24 18:52:41.707] [info] Checking for update
+[2025-04-24 18:52:42.023] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 18:52:42.025] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 18:52:42.025] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 18:52:42.031] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 18:52:42.031] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 18:52:42.053] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 18:52:42.364] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 18:52:42.395] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 18:52:42.396] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 18:52:42.441] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 18:52:42.442] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 18:52:42.443] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 18:52:42.444] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 18:52:42.445] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 18:52:42.445] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 18:52:42.446] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 18:52:42.446] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 18:52:42.547] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 18:52:42.548] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 18:52:42.549] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 18:52:42.550] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 18:52:42.550] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 18:52:42.551] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 18:52:42.552] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 18:52:42.552] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 18:52:42.553] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 18:52:42.553] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 18:52:42.554] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 18:52:42.554] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 18:52:42.555] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 18:52:42.555] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 18:52:42.556] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 18:52:42.557] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 18:52:42.557] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 18:52:42.558] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 18:52:42.558] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 18:52:42.559] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 18:52:42.560] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 18:52:42.560] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 18:52:42.583] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 18:52:42.584] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 18:52:42.585] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 18:52:42.585] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 18:52:42.767] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 18:52:42.768] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 18:52:44.658] [info] Quitting...
+[2025-04-24 18:52:44.658] [info] Killing child process
+[2025-04-24 18:52:59.117] [info] Checking for update
+[2025-04-24 18:52:59.443] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 18:52:59.445] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 18:52:59.446] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 18:52:59.452] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 18:52:59.453] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 18:52:59.475] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 18:52:59.777] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 18:52:59.808] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 18:52:59.809] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 18:52:59.856] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 18:52:59.857] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 18:52:59.858] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 18:52:59.859] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 18:52:59.859] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 18:52:59.860] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 18:52:59.860] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 18:52:59.861] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 18:52:59.960] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 18:52:59.961] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 18:52:59.962] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 18:52:59.963] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 18:52:59.963] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 18:52:59.964] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 18:52:59.964] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 18:52:59.965] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 18:52:59.966] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 18:52:59.966] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 18:52:59.967] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 18:52:59.967] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 18:52:59.968] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 18:52:59.969] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 18:52:59.969] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 18:52:59.970] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 18:52:59.970] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 18:52:59.971] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 18:52:59.971] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 18:52:59.972] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 18:52:59.972] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 18:52:59.973] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 18:52:59.995] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 18:52:59.997] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 18:52:59.997] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 18:52:59.998] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 18:53:00.179] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 18:53:00.180] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 18:55:03.045] [info] Quitting...
+[2025-04-24 18:55:03.045] [info] Killing child process
+[2025-04-24 19:01:12.245] [info] Checking for update
+[2025-04-24 19:01:12.567] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:01:12.569] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:01:12.570] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:01:12.577] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:01:12.577] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:01:12.598] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:01:12.915] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:01:12.939] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:01:12.940] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:01:12.983] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:01:12.984] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:01:12.985] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:01:12.986] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:01:12.986] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:01:12.987] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:01:12.987] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:01:12.988] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:01:13.094] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:01:13.095] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:01:13.096] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:01:13.097] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:01:13.098] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:01:13.098] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:01:13.099] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:01:13.099] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:01:13.100] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:01:13.100] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:01:13.101] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:01:13.102] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:01:13.103] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:01:13.103] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:01:13.104] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:01:13.104] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:01:13.105] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:01:13.105] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:01:13.106] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:01:13.106] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:01:13.107] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:01:13.107] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:01:13.130] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:01:13.131] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:01:13.132] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:01:13.133] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:01:13.312] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:01:13.313] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:01:15.300] [info] Quitting...
+[2025-04-24 19:01:15.301] [info] Killing child process
+[2025-04-24 19:05:37.686] [info] Checking for update
+[2025-04-24 19:05:38.004] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:05:38.006] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:05:38.007] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:05:38.012] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:05:38.013] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:05:38.034] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:05:38.367] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:05:38.368] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:05:38.412] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:05:38.413] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:05:38.414] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:05:38.415] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:05:38.415] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:05:38.416] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:05:38.416] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:05:38.416] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:05:38.527] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:05:38.528] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:05:38.529] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:05:38.529] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:05:38.530] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:05:38.531] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:05:38.531] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:05:38.532] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:05:38.532] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:05:38.533] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:05:38.534] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:05:38.534] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:05:38.535] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:05:38.535] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:05:38.536] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:05:38.537] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:05:38.537] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:05:38.537] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:05:38.538] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:05:38.539] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:05:38.539] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:05:38.540] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:05:38.549] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:05:38.562] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:05:38.564] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:05:38.564] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:05:38.565] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:05:38.750] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:05:38.751] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:05:52.643] [info] Quitting...
+[2025-04-24 19:05:52.643] [info] Killing child process
+[2025-04-24 19:06:11.365] [info] Checking for update
+[2025-04-24 19:06:11.678] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:06:11.680] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:06:11.681] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:06:11.687] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:06:11.688] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:06:11.708] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:06:12.038] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:06:12.039] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:06:12.062] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:06:12.082] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:06:12.083] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:06:12.084] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:06:12.085] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:06:12.085] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:06:12.086] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:06:12.086] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:06:12.087] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:06:12.200] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:06:12.202] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:06:12.203] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:06:12.203] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:06:12.204] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:06:12.205] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:06:12.205] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:06:12.206] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:06:12.207] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:06:12.207] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:06:12.208] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:06:12.208] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:06:12.209] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:06:12.210] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:06:12.210] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:06:12.211] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:06:12.211] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:06:12.212] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:06:12.213] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:06:12.213] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:06:12.214] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:06:12.214] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:06:12.237] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:06:12.238] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:06:12.239] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:06:12.240] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:06:12.422] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:06:12.424] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:06:27.505] [info] Quitting...
+[2025-04-24 19:06:27.505] [info] Killing child process
+[2025-04-24 19:06:46.283] [info] Checking for update
+[2025-04-24 19:06:46.602] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:06:46.605] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:06:46.606] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:06:46.611] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:06:46.612] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:06:46.633] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:06:46.924] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:06:46.926] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:06:46.946] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:06:46.971] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:06:46.972] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:06:46.973] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:06:46.974] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:06:46.974] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:06:46.975] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:06:46.976] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:06:46.976] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:06:47.100] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:06:47.101] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:06:47.102] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:06:47.103] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:06:47.103] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:06:47.104] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:06:47.104] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:06:47.105] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:06:47.106] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:06:47.106] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:06:47.107] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:06:47.107] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:06:47.108] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:06:47.108] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:06:47.109] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:06:47.110] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:06:47.110] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:06:47.111] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:06:47.111] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:06:47.112] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:06:47.112] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:06:47.113] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:06:47.137] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:06:47.138] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:06:47.138] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:06:47.139] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:06:47.325] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:06:47.326] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:07:40.480] [info] Quitting...
+[2025-04-24 19:07:40.481] [info] Killing child process
+[2025-04-24 19:31:18.183] [info] Checking for update
+[2025-04-24 19:31:18.550] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:31:18.553] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:31:18.554] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:31:18.560] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:31:18.561] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:31:18.583] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:31:18.891] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:31:18.967] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:31:18.967] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:31:19.031] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:31:19.033] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:31:19.034] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:31:19.035] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:31:19.036] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:31:19.036] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:31:19.037] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:31:19.038] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:31:19.172] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:31:19.173] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:31:19.174] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:31:19.175] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:31:19.175] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:31:19.176] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:31:19.177] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:31:19.177] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:31:19.178] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:31:19.179] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:31:19.179] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:31:19.180] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:31:19.180] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:31:19.181] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:31:19.182] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:31:19.182] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:31:19.183] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:31:19.183] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:31:19.184] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:31:19.184] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:31:19.185] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:31:19.185] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:31:19.210] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:31:19.211] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:31:19.212] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:31:19.213] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:31:19.396] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:31:19.398] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:31:25.337] [info] Quitting...
+[2025-04-24 19:31:25.337] [info] Killing child process
+[2025-04-24 19:33:01.587] [info] Checking for update
+[2025-04-24 19:33:01.909] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:33:01.911] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:33:01.912] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:33:01.918] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:33:01.918] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:33:01.938] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:33:02.250] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:33:02.273] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:33:02.274] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:33:02.339] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:33:02.340] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:33:02.342] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:33:02.343] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:33:02.344] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:33:02.344] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:33:02.345] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:33:02.346] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:33:02.506] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:33:02.508] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:33:02.509] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:33:02.509] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:33:02.510] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:33:02.510] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:33:02.511] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:33:02.512] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:33:02.512] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:33:02.513] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:33:02.513] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:33:02.514] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:33:02.514] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:33:02.515] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:33:02.516] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:33:02.516] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:33:02.516] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:33:02.517] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:33:02.518] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:33:02.518] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:33:02.519] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:33:02.520] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:33:02.544] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:33:02.545] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:33:02.546] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:33:02.546] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:33:02.728] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:33:02.729] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:33:13.689] [info] Quitting...
+[2025-04-24 19:33:13.690] [info] Killing child process
+[2025-04-24 19:33:41.822] [info] Checking for update
+[2025-04-24 19:33:42.132] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:33:42.134] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:33:42.135] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:33:42.141] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:33:42.141] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:33:42.161] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:33:42.473] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:33:42.506] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:33:42.507] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:33:42.573] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:33:42.575] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:33:42.576] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:33:42.577] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:33:42.578] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:33:42.579] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:33:42.580] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:33:42.581] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:33:42.718] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:33:42.719] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:33:42.720] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:33:42.721] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:33:42.721] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:33:42.722] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:33:42.722] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:33:42.723] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:33:42.723] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:33:42.724] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:33:42.725] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:33:42.725] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:33:42.726] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:33:42.726] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:33:42.727] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:33:42.728] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:33:42.728] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:33:42.728] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:33:42.729] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:33:42.730] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:33:42.730] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:33:42.731] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:33:42.753] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:33:42.754] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:33:42.755] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:33:42.755] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:33:42.938] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:33:42.939] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:33:47.066] [info] Quitting...
+[2025-04-24 19:33:47.066] [info] Killing child process
+[2025-04-24 19:34:43.841] [info] Checking for update
+[2025-04-24 19:34:44.156] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:34:44.158] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:34:44.159] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:34:44.164] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:34:44.165] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:34:44.184] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:34:44.495] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:34:44.527] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:34:44.528] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:34:44.592] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:34:44.594] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:34:44.595] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:34:44.597] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:34:44.598] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:34:44.598] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:34:44.599] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:34:44.600] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:34:44.750] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:34:44.751] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:34:44.752] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:34:44.753] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:34:44.754] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:34:44.754] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:34:44.755] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:34:44.756] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:34:44.756] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:34:44.757] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:34:44.757] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:34:44.758] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:34:44.758] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:34:44.759] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:34:44.759] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:34:44.760] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:34:44.761] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:34:44.761] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:34:44.762] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:34:44.763] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:34:44.763] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:34:44.763] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:34:44.787] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:34:44.788] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:34:44.788] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:34:44.789] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:34:44.973] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:34:44.974] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:35:06.825] [info] Quitting...
+[2025-04-24 19:35:06.826] [info] Killing child process
+[2025-04-24 19:36:12.369] [info] Checking for update
+[2025-04-24 19:36:12.586] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:36:12.588] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:36:12.589] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:36:12.595] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:36:12.595] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:36:12.616] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:36:12.935] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable2' }
+[2025-04-24 19:36:12.956] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:36:12.957] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:36:13.023] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:36:13.024] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:36:13.025] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:36:13.026] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:36:13.027] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:36:13.028] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:36:13.028] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:36:13.030] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:36:13.229] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:36:13.231] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:36:13.232] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:36:13.233] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:36:13.233] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:36:13.234] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:36:13.235] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:36:13.235] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:36:13.236] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:36:13.236] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:36:13.237] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:36:13.238] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:36:13.239] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:36:13.239] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:36:13.240] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:36:13.241] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:36:13.241] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:36:13.242] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:36:13.242] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:36:13.242] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:36:13.243] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:36:13.244] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:36:13.268] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:36:13.269] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:36:13.270] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:36:13.271] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:36:13.454] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:36:13.456] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:36:38.745] [info] Quitting...
+[2025-04-24 19:36:38.745] [info] Killing child process
+[2025-04-24 19:41:27.889] [info] Checking for update
+[2025-04-24 19:41:28.097] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/enzo/.config/notion-app/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2025-04-24 19:41:28.099] [error] Error: Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'
+[2025-04-24 19:41:28.099] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'",
+    stack: "Error: ENOENT: no such file or directory, open '/opt/Notion/resources/app-update.yml'"
+  }
+}
+[2025-04-24 19:41:28.105] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: { version: '23.13.0.3061', hash: '9c9bef4c5c33acc3247b2abd9efa217a' }
+}
+[2025-04-24 19:41:28.106] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersions',
+  data: {
+    message: 'Sync versions: assets.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets.json headers.json path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/headers.json'
+  }
+}
+[2025-04-24 19:41:28.126] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: { version: '23.13.0.3061' }
+}
+[2025-04-24 19:41:28.445] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateAvailable',
+  data: { version: '23.13.0.3062' }
+}
+[2025-04-24 19:41:28.472] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionSameSkippingSync'
+}
+[2025-04-24 19:41:28.475] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest2',
+  data: {
+    message: 'Performing file request: /, abs path /home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/index-es-LA-8be3810ec14832c9.html'
+  }
+}
+[2025-04-24 19:41:28.547] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/ClientFramework-48dc52b38adb6c10.js',
+    url: '/_assets/ClientFramework-48dc52b38adb6c10.js'
+  }
+}
+[2025-04-24 19:41:28.550] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/22235-d3fe14b4420ad141.js',
+    url: '/_assets/22235-d3fe14b4420ad141.js'
+  }
+}
+[2025-04-24 19:41:28.553] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/46474-179d5cf629af96eb.js',
+    url: '/_assets/46474-179d5cf629af96eb.js'
+  }
+}
+[2025-04-24 19:41:28.553] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67952-a2023aef9d7324fe.js',
+    url: '/_assets/67952-a2023aef9d7324fe.js'
+  }
+}
+[2025-04-24 19:41:28.554] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-d17e368d80cc5835.js',
+    url: '/_assets/app-d17e368d80cc5835.js'
+  }
+}
+[2025-04-24 19:41:28.555] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/app-05cf952368f8c370.css',
+    url: '/_assets/app-05cf952368f8c370.css'
+  }
+}
+[2025-04-24 19:41:28.556] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js',
+    url: '/_assets/localeSetup-es-LA-417e9a8d6b9b09b90471530beab6ee49.js'
+  }
+}
+[2025-04-24 19:41:28.556] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/print.e2ba4c31.css',
+    url: '/print.e2ba4c31.css'
+  }
+}
+[2025-04-24 19:41:28.730] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/BlockPropertyValue-9fb60d330925a209.js',
+    url: '/_assets/BlockPropertyValue-9fb60d330925a209.js'
+  }
+}
+[2025-04-24 19:41:28.731] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordModel-bf1d585642ac166a.js',
+    url: '/_assets/RecordModel-bf1d585642ac166a.js'
+  }
+}
+[2025-04-24 19:41:28.731] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordStore-4698b2f64a1d7051.js',
+    url: '/_assets/RecordStore-4698b2f64a1d7051.js'
+  }
+}
+[2025-04-24 19:41:28.732] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/PageViewBlock-f8cf14118f8b348b.js',
+    url: '/_assets/PageViewBlock-f8cf14118f8b348b.js'
+  }
+}
+[2025-04-24 19:41:28.733] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/92860-e4f596de7d676a2b.js',
+    url: '/_assets/92860-e4f596de7d676a2b.js'
+  }
+}
+[2025-04-24 19:41:28.734] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/86894-b9510c547c6dc701.js',
+    url: '/_assets/86894-b9510c547c6dc701.js'
+  }
+}
+[2025-04-24 19:41:28.734] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/53250-2d3a2c364464bfde.js',
+    url: '/_assets/53250-2d3a2c364464bfde.js'
+  }
+}
+[2025-04-24 19:41:28.735] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/85515-cfbd1f18f053de2d.js',
+    url: '/_assets/85515-cfbd1f18f053de2d.js'
+  }
+}
+[2025-04-24 19:41:28.735] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/1213-efbb24f0266044ff.js',
+    url: '/_assets/1213-efbb24f0266044ff.js'
+  }
+}
+[2025-04-24 19:41:28.736] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/78846-aeef164168c7c547.js',
+    url: '/_assets/78846-aeef164168c7c547.js'
+  }
+}
+[2025-04-24 19:41:28.737] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/43741-4b6a23795e433dd8.js',
+    url: '/_assets/43741-4b6a23795e433dd8.js'
+  }
+}
+[2025-04-24 19:41:28.738] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/93282-a212688efbb63419.js',
+    url: '/_assets/93282-a212688efbb63419.js'
+  }
+}
+[2025-04-24 19:41:28.738] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/90978-de065f38ec6227be.js',
+    url: '/_assets/90978-de065f38ec6227be.js'
+  }
+}
+[2025-04-24 19:41:28.740] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/RecordMap-ae7156203167ef19.js',
+    url: '/_assets/RecordMap-ae7156203167ef19.js'
+  }
+}
+[2025-04-24 19:41:28.741] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/7379-530023d08c139812.js',
+    url: '/_assets/7379-530023d08c139812.js'
+  }
+}
+[2025-04-24 19:41:28.741] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/72226-094235d54033669e.js',
+    url: '/_assets/72226-094235d54033669e.js'
+  }
+}
+[2025-04-24 19:41:28.742] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/67780-afe3dbd72bbacdf5.js',
+    url: '/_assets/67780-afe3dbd72bbacdf5.js'
+  }
+}
+[2025-04-24 19:41:28.742] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/96933-80d7860ebed85a08.js',
+    url: '/_assets/96933-80d7860ebed85a08.js'
+  }
+}
+[2025-04-24 19:41:28.743] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/49157-8a4d5480892ff8e2.js',
+    url: '/_assets/49157-8a4d5480892ff8e2.js'
+  }
+}
+[2025-04-24 19:41:28.743] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/4253-fac18e142be8efb7.js',
+    url: '/_assets/4253-fac18e142be8efb7.js'
+  }
+}
+[2025-04-24 19:41:28.744] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/27023-f75442f08e911fce.js',
+    url: '/_assets/27023-f75442f08e911fce.js'
+  }
+}
+[2025-04-24 19:41:28.744] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/mainApp-bea5b97363925caa.js',
+    url: '/_assets/mainApp-bea5b97363925caa.js'
+  }
+}
+[2025-04-24 19:41:28.768] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/33194-9ebb85613a0ac41c.js',
+    url: '/_assets/33194-9ebb85613a0ac41c.js'
+  }
+}
+[2025-04-24 19:41:28.769] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/29875-f865df815fc3cf0c.js',
+    url: '/_assets/29875-f865df815fc3cf0c.js'
+  }
+}
+[2025-04-24 19:41:28.770] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/95733-2f97d502c4b65489.js',
+    url: '/_assets/95733-2f97d502c4b65489.js'
+  }
+}
+[2025-04-24 19:41:28.771] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/SidebarComponent-34fc38e75052436f.js',
+    url: '/_assets/SidebarComponent-34fc38e75052436f.js'
+  }
+}
+[2025-04-24 19:41:28.954] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/5821-2cd57d72be832ecb.js',
+    url: '/_assets/5821-2cd57d72be832ecb.js'
+  }
+}
+[2025-04-24 19:41:28.955] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'performingFileRequest',
+  data: {
+    absolutePath: '/home/enzo/.config/notion-app/notionAssetCache-v2/23.13.0.3061/assets/_assets/sentry-d2aa534d37d3cc1d.js',
+    url: '/_assets/sentry-d2aa534d37d3cc1d.js'
+  }
+}
+[2025-04-24 19:41:30.517] [info] { level: 'info', from: 'AssetCache', type: 'checkingForAppUpdate2' }
+[2025-04-24 19:41:30.518] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'appUpdateDownloadComplete',
+  data: { version: '23.13.0.3062' }
+}
+[2025-04-24 19:41:30.519] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'installingAppUpdate',
+  data: { version: '23.13.0.3062' }
+}
+[2025-04-24 19:41:37.643] [info] Quitting...
+[2025-04-24 19:41:37.643] [info] Killing child process

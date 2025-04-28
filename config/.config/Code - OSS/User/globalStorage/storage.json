@@ -1,0 +1,76 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "9d3b1f8230206bb6b6cba9f92ea614359d90fc0c8540ae02c5ee5b68d5b8f36a",
+    "telemetry.devDeviceId": "f7a916dd-8a5f-42c4-bb5b-1abf34129066",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/enzo/dsq"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1745696978197"
+            }
+        ]
+    },
+    "windowControlHeight": 44,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/enzo/dsq": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1745696978197": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/enzo/.config/Code - OSS/Backups/1745696978197",
+            "uiState": {
+                "mode": 0,
+                "x": 968,
+                "y": 32,
+                "width": 944,
+                "height": 1040
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 1.3,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "userDataProfiles": [
+        {
+            "location": "-6cc35f06",
+            "name": "ts"
+        }
+    ]
+}

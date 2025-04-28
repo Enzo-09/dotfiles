@@ -1,0 +1,44 @@
+2025-04-25 09:01:40.075 [info] Started local extension host with pid 2187.
+2025-04-25 09:01:42.777 [info] [perf] Render performance baseline is 16ms
+2025-04-25 09:01:44.700 [error] command 'workbench.action.chat.triggerSetup' not found: Error: command 'workbench.action.chat.triggerSetup' not found
+    at qqe.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1824:1341)
+    at qqe.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1824:1273)
+2025-04-25 09:01:45.704 [error] command 'workbench.action.chat.triggerSetup' not found: Error: command 'workbench.action.chat.triggerSetup' not found
+    at qqe.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1824:1341)
+    at qqe.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1824:1273)
+2025-04-25 09:02:37.016 [error] Cannot register two commands with the same id: _workbench.openUserSettingsEditor: Error: Cannot register two commands with the same id: _workbench.openUserSettingsEditor
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:34:31760)
+    at t (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1864:81497)
+    at Hse.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1864:81817)
+    at E.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at E.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at E.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at aqs.updateCurrentProfile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3211:89449)
+    at UGe.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1840:76868)
+    at async UGe.switchProfile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1840:76180)
+    at async za.u (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:32:37743)
+2025-04-25 09:02:37.072 [info] Started local extension host with pid 2242.
+2025-04-25 09:06:27.294 [error] Cannot register two commands with the same id: _workbench.openUserSettingsEditor: Error: Cannot register two commands with the same id: _workbench.openUserSettingsEditor
+    at A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:34:31760)
+    at t (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1864:81497)
+    at Hse.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1864:81817)
+    at E.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at E.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at E.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at aqs.updateCurrentProfile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3211:89449)
+    at UGe.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1840:76868)
+    at async UGe.switchProfile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1840:76180)
+    at async za.u (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:32:37743)
+2025-04-25 09:06:27.339 [info] Started local extension host with pid 2792.
+2025-04-25 09:10:54.713 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-04-25 09:10:56.486 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-04-25 09:11:12.934 [warning] [backup tracker] suspended, ignoring content change event untitled:Untitled-1 
+2025-04-25 09:11:12.935 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1 
+2025-04-25 09:11:12.950 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1 
+2025-04-25 09:11:13.589 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-04-25 09:11:13.694 [info] Started local extension host with pid 3166.
+2025-04-25 09:11:16.459 [info] [perf] Render performance baseline is 25ms
+2025-04-25 09:13:13.883 [info] Started local extension host with pid 3560.
+2025-04-25 09:13:16.624 [info] [perf] Render performance baseline is 25ms
+2025-04-25 09:13:23.615 [info] Started local extension host with pid 3600.
+2025-04-25 09:13:26.205 [info] [perf] Render performance baseline is 24ms

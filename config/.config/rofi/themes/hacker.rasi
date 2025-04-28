@@ -1,0 +1,35 @@
+* {
+    background: #000000;         /* Fondo negro */
+    background-alt: #0a0a0a;      /* Alternativo muy oscuro */
+    foreground: #00FF00;         /* Verde brillante */
+    selected-background: #00FF00; /* Fondo verde al seleccionar */
+    selected-foreground: #000000; /* Texto negro al seleccionar */
+    border-color: #00FF00;        /* Bordes verdes */
+    separatorcolor: #00FF00;
+    border: 2;
+    padding: 10;
+    font: "Ubuntu Mono 14";
+}
+
+window {
+    width: 30%;
+    transparency: "real";
+    location: center;
+}
+
+listview {
+    lines: 10;
+    columns: 1;
+    spacing: 5;
+    cycle: true;
+}
+
+element {
+    padding: 5;
+    border: 0;
+}
+
+element selected {
+    background-color: @selected-background;
+    color: @selected-foreground;
+}

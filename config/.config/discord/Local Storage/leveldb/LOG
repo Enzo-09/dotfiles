@@ -1,0 +1,5 @@
+2025/04/25-23:04:32.176 959 Reusing MANIFEST /home/enzo/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/04/25-23:04:32.185 959 Recovering log #4
+2025/04/25-23:04:32.209 959 Level-0 table #6: started
+2025/04/25-23:04:32.232 959 Level-0 table #6: 3553103 bytes OK
+2025/04/25-23:04:32.237 959 Delete type=0 #4
